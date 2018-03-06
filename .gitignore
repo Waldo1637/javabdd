@@ -1,1 +1,10 @@
-*.class
+#ant specific
+build/
+dist/
+
+#NetBeans specific
+#ignore entire folder but make exceptions
+nbproject/*
+!nbproject/configs/
+!nbproject/project.properties
+!nbproject/project.xml
